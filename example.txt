@@ -1,0 +1,5 @@
+Welcome to DevOps automation.
+Python is great for scripting.
+File handling is very useful.
+Always check for errors in logs.
+End of file.
