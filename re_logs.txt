@@ -1,0 +1,5 @@
+ERROR 2025-09-29 server01 CPU=80 Memory=70 Disk=50
+INFO 2025-09-29 server02 CPU=60 Memory=65 Disk=40
+WARNING 2025-09-28 server03 CPU=90 Memory=85 Disk=70
+ERROR 2025-09-27 server04 CPU=75 Memory=60 Disk=55
+INFO 2025-09-26 server05 CPU=50 Memory=55 Disk=30
