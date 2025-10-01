@@ -1,0 +1,40 @@
+{
+    "environments": [
+        {
+            "name": "production",
+            "url": "https://prod.example.com",
+            "servers": [
+                {"hostname": "prod-web-01", "ip": "10.0.0.1", "role": "web"},
+                {"hostname": "prod-db-01", "ip": "10.0.0.2", "role": "database"}
+            ],
+            "deployments": {
+                "app_version": "v1.2.0",
+                "last_deployed": "2025-09-30"
+            }
+        },
+        {
+            "name": "staging",
+            "url": "https://staging.example.com",
+            "servers": [
+                {"hostname": "staging-web-01", "ip": "10.0.1.1", "role": "web"},
+                {"hostname": "staging-db-01", "ip": "10.0.1.2", "role": "database"}
+            ],
+            "deployments": {
+                "app_version": "v1.2.1-beta",
+                "last_deployed": "2025-09-29"
+            }
+        },
+        {
+            "name": "development",
+            "url": "https://dev.example.com",
+            "servers": [
+                {"hostname": "dev-web-01", "ip": "10.0.2.1", "role": "web"},
+                {"hostname": "dev-db-01", "ip": "10.0.2.2", "role": "database"}
+            ],
+            "deployments": {
+                "app_version": "v1.3.0-alpha",
+                "last_deployed": "2025-09-28"
+            }
+        }
+    ]
+}

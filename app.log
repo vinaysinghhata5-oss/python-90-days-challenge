@@ -1,5 +1,6 @@
-2025-09-26 09:00:01 INFO Starting application
-2025-09-27 10:01:01 ERROR Unable to connect to database
-2025-09-27 11:00:45 INFO Application running
-2025-09-27 12:15:10 ERROR Timeout while fetching data
-2025-09-27 12:30:00 INFO Application stopped
+2025-09-30 10:15:42,123 INFO  [auth-service] User vinay logged in from IP 192.168.1.10
+2025-09-30 10:16:02,512 ERROR [payment-service] Transaction failed for order_id=124578, reason=Insufficient funds
+2025-09-30 10:16:10,874 WARN  [db-connection] Connection slow: query_time=4.23s on host=db01.prod.local
+2025-09-30 10:17:33,220 INFO  [order-service] Order order_id=124579 successfully placed by user=amit
+2025-09-30 10:18:05,912 ERROR [payment-service] Transaction failed for order_id=124580, reason=Timeout
+2025-09-30 10:19:18,410 INFO  [auth-service] User anita logged out

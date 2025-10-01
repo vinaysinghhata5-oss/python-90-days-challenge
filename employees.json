@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Amit",
+      "age": 28,
+      "skills": ["Python", "AWS", "Docker"]
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "age": 24,
+      "skills": ["Java", "Spring", "MySQL"]
+    },
+    {
+      "id": 3,
+      "name": "Rahul",
+      "age": 32,
+      "skills": ["DevOps", "Kubernetes", "Terraform"]
+    },
+    {
+      "id": 4,
+      "name": "Sneha",
+      "age": 22,
+      "skills": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}
